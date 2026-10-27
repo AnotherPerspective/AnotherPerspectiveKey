@@ -1,0 +1,14 @@
+AnotherPerspectiveKey powered by CorridorKey
+Copyright (c) 2026 Another Perspective Pictures
+
+This project is derived from CorridorKey 2.0 by Corridor Digital LLC
+(https://github.com/nikopueringer/CorridorKey2.0). As the Corridor Key Licence 2.0
+requires, it keeps the CorridorKey name, it is free of charge, and it is released under
+the same licence, including its Additional Terms: see LICENSE.
+
+AnotherPerspectiveKey does not include CorridorKey's code or model weights: the installer
+downloads them from their original publishers on the user's computer. Third-party
+components and their licences are listed in THIRD_PARTY_NOTICES.md.
+
+AnotherPerspectiveKey is not affiliated with or endorsed by Corridor Digital or
+Blackmagic Design. DaVinci Resolve is a trademark of Blackmagic Design.
