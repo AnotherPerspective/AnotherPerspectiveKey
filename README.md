@@ -8,17 +8,20 @@ Di [Another Perspective Pictures](https://www.anotherperspectivepictures.com). *
 
 ## Scarica
 
-**[Ultima versione](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/latest)** — 1.1.1 beta
+**[Ultima versione](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/latest)** — 1.1.2 beta
 
 | Sistema | File |
 |---|---|
-| **Windows** (consigliato) | [AnotherPerspectiveKey-1.1.1-beta-windows-setup.exe](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/download/v1.1.1-beta/AnotherPerspectiveKey-1.1.1-beta-windows-setup.exe) |
-| Windows, con gli script | [AnotherPerspectiveKey-1.1.1-beta-windows.zip](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/download/v1.1.1-beta/AnotherPerspectiveKey-1.1.1-beta-windows.zip) |
-| Linux (solo DaVinci Resolve) | [AnotherPerspectiveKey-1.1.1-beta-linux.tar.gz](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/download/v1.1.1-beta/AnotherPerspectiveKey-1.1.1-beta-linux.tar.gz) |
+| **Windows** (consigliato) | [AnotherPerspectiveKey-1.1.2-beta-windows-setup.exe](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/download/v1.1.2-beta/AnotherPerspectiveKey-1.1.2-beta-windows-setup.exe) |
+| Windows, con gli script | [AnotherPerspectiveKey-1.1.2-beta-windows.zip](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/download/v1.1.2-beta/AnotherPerspectiveKey-1.1.2-beta-windows.zip) |
+| Linux (solo DaVinci Resolve) | [AnotherPerspectiveKey-1.1.2-beta-linux.tar.gz](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/download/v1.1.2-beta/AnotherPerspectiveKey-1.1.2-beta-linux.tar.gz) |
 | Mac | non supportato: CorridorKey 2.0 richiede una scheda NVIDIA |
 
 Il file è piccolo: il resto (CorridorKey, PyTorch, i modelli, circa 10 GB) lo scarica l'installazione
 dalle fonti ufficiali.
+
+La guida completa, con la soluzione dei problemi frequenti, è dentro il pacchetto
+(`Guida AnotherPerspectiveKey.html`) e il Setup la lascia nella cartella di installazione.
 
 ## Cosa fa
 
@@ -46,7 +49,7 @@ Su una RTX 4090 ci vogliono circa 4 secondi per fotogramma 4K.
 ## Installare su Windows
 
 1. Chiudi DaVinci Resolve, Premiere Pro e After Effects.
-2. Apri **AnotherPerspectiveKey-1.1.1-beta-windows-setup.exe**. Il Setup non è firmato con un certificato
+2. Apri **AnotherPerspectiveKey-1.1.2-beta-windows-setup.exe**. Il Setup non è firmato con un certificato
    a pagamento, quindi Windows mostra "Windows ha protetto il PC": *Ulteriori informazioni* › *Esegui comunque*.
 3. Accetta la licenza di CorridorKey, scegli i programmi (quelli trovati sul PC sono già accesi) e premi
    **Installa**. Ci vogliono 20-30 minuti.
@@ -96,7 +99,8 @@ Free, runs locally, no subscription.
 **Download:** [latest release](https://github.com/AnotherPerspective/AnotherPerspectiveKey/releases/latest) —
 Windows Setup (recommended), Windows zip, or Linux (DaVinci Resolve only). macOS is not supported:
 CorridorKey 2.0 needs an NVIDIA GPU. The download is small; installation fetches CorridorKey, PyTorch
-and the models (about 10 GB) from their official sources.
+and the models (about 10 GB) from their official sources. The full guide, with common problems, is in
+the package (`AnotherPerspectiveKey Guide.html`) and stays in the install folder.
 
 **Needs:** Windows 10 22H2 / 11, an NVIDIA RTX GPU (30 series or newer, 8 GB+) with driver 570+, and
 DaVinci Resolve 21, Premiere Pro 2022+ or After Effects 2023+. About 25 GB free.
